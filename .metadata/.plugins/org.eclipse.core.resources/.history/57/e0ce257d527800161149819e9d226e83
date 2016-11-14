@@ -1,0 +1,12 @@
+package geeksForGeeks;
+
+public class InsertingNodeMiddle {
+	
+	
+	public void middleInsert(int d){
+		
+		
+		
+	}
+
+}

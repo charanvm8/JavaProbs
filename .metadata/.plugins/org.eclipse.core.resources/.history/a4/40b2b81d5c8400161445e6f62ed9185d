@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form</title>
+</head>
+<body>
+<form name="Personal" action="POST" action="/FormData/FormPage">
+<table>
+<tbody>
+<tr>
+<td>UserName : </td>
+<td><input name="userName" type="text"></td>
+
+</tr>
+
+</tbody>
+</table>
+</form>
+</body>
+</html>
