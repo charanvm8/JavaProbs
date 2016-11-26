@@ -1,0 +1,5 @@
+package org.charan.logging;
+
+public class LoggingAspect {
+
+}
