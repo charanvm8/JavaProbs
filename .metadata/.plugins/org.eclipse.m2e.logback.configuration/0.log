@@ -850,3 +850,8 @@
 2016-11-27 17:53:46,192 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charanvm8/git/Projects/WebProject/src/main/resources
 2016-11-27 17:53:46,198 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2016-11-27 17:53:46,200 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charanvm8/git/Projects/WebProject/src/test/resources
+2016-12-04 23:22:02,204 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jboss:jandex:jar:2.0.0.Final is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2016-12-04 23:22:10,543 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-04 23:22:10,544 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charanvm8/git/Projects/WebProject/src/main/resources
+2016-12-04 23:22:10,548 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-12-04 23:22:10,548 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/charanvm8/git/Projects/WebProject/src/test/resources
