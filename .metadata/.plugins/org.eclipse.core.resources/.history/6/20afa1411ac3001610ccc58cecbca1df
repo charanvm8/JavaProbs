@@ -1,0 +1,21 @@
+package linkedlist;
+
+import java.util.ArrayList;
+
+public class FindandPrint {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> ne=new ArrayList<Integer>();
+		ne.add(10);
+		ne.add(20);
+		ne.add(30);
+		
+		boolean b=ne.contains(20);
+		if(b)
+			System.out.println(ne.indexOf(20));
+		
+
+	}
+
+}
