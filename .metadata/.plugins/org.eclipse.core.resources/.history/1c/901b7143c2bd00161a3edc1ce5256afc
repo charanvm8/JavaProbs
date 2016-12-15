@@ -1,0 +1,15 @@
+package javaCore;
+
+public class AreaTri {
+	
+	public void Area(int height,int breadth){
+		System.out.println(0.5*height*breadth);
+	}
+	
+
+	public static void main(String[] args) {
+		// Write a program to Calculate area of triangle
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package javaCore;
+
+public class AreaCir {
+	
+	public double Area(int radius){
+		return 3.14*radius*radius;
+	}
+	
+	public double Circum(int radius){
+		return 2*radius*3.14;
+	}
+
+	public static void main(String[] args) {
+		// Write a program to  Calculate area & circumference of circle
+		
+
+	}
+
+}
