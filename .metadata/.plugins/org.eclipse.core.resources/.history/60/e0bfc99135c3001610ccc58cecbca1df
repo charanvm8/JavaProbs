@@ -1,0 +1,17 @@
+package linkedlist;
+
+import java.util.LinkedList;
+
+public class LifoImp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList<Integer> in=new LinkedList<Integer>();
+		in.push(10);
+		in.push(20);
+		in.pop();
+		for(Integer i:in)
+			System.out.println(i);
+	}
+
+}

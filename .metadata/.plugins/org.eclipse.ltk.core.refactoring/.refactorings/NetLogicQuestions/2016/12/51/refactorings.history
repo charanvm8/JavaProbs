@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;clone&apos; from expression &apos;(LinkedList&lt;Integer&gt;)in.clone()&apos;&#x0A;- Original project: &apos;NetLogicQuestions&apos;&#x0A;- Variable name: &apos;clone&apos;&#x0A;- Destination method: &apos;linkedlist.LifoImp.main()&apos;&#x0A;- Variable expression: &apos;(LinkedList&lt;Integer&gt;)in.clone()&apos;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;clone&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;linkedlist{LifoImp.java" name="clone" replace="true" selection="309 32" stamp="1481854369680" version="1.0"/>
+</session>
