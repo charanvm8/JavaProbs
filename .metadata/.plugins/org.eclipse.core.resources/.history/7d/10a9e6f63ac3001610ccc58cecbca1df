@@ -1,0 +1,15 @@
+package hashSet;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HashSetObj {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Set<String> ne=new HashSet<String>();
+		
+
+	}
+
+}
