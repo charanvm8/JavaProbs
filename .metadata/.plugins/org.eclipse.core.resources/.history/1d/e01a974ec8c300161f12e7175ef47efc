@@ -1,0 +1,27 @@
+package hashSet;
+
+import java.util.HashSet;
+
+public class Remaining {
+
+	public static void main(String[] args) {
+		// Remaining problem in the assignment
+		HashSet<Integer> hash=new HashSet<Integer>();
+		hash.add(10);
+		hash.add(20);
+		hash.add(20);
+		
+		HashSet<Integer> hashTwo=new HashSet<Integer>();
+		hashTwo.add(10);
+		hashTwo.add(20);
+		hashTwo.add(20);
+		hashTwo.add(40);
+		
+		hash.removeAll(hashTwo);
+		System.out.println(hash.size());
+		
+		
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package treeSet;
+
+import java.util.Scanner;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class AllProbs {
+
+	@SuppressWarnings("resource")
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Set<Integer> in=new TreeSet<Integer>();
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Please insert the number");
+		int x=sc.nextInt();
+		System.out.println(x);
+		
+		Integer ne=new Integer(x);
+		in.add(ne);
+		for(Integer i:in)
+			System.out.println(i);
+		System.out.println(in.contains(ne));
+		
+		in.clear();
+		
+		for(Integer i2:in)
+			System.out.println(i2);
+
+	}
+
+}

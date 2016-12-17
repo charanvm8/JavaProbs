@@ -31,6 +31,7 @@ public class Price {
 		int hashcode=0;
 		hashcode=price*20;
 		hashcode+=name.hashCode();
+		System.out.println(hashcode);
 		return hashcode;
 		
 	}
