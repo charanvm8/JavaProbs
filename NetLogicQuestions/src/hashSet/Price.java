@@ -32,8 +32,7 @@ public class Price {
 		hashcode=price*20;
 		hashcode+=name.hashCode();
 		System.out.println(hashcode);
-		return hashcode;
-		
+		return hashcode;		
 	}
 	
 	public boolean equals(Object obj){
