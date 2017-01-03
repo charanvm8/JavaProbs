@@ -1,0 +1,33 @@
+package geeksForGeeks;
+
+public class SelectionSort {
+	
+	public void sel_sort(int arr[]){
+		int length=arr.length;
+		
+		for(int i=0;i<length-1;i++){
+			int position=i;
+			for(int j=0;j<length;j++){
+				if(arr[i]>arr[j]){
+					position=j;
+				}			
+			}
+			int temp=arr[position];
+			arr[position]=arr[i];
+			arr[i]=temp;
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		SelectionSort ne=new SelectionSort();
+		int[] arr={9,8,7,6,5,4,3,2};
+		ne.sel_sort(arr);
+		for(int a:arr){
+			System.out.println(a);
+		}
+
+	}
+
+}

@@ -7,7 +7,7 @@ public class SelectionSort {
 		
 		for(int i=0;i<length-1;i++){
 			int position=i;
-			for(int j=1;j<length;j++){
+			for(int j=i+1;j<length;j++){
 				if(arr[i]>arr[j]){
 					position=j;
 				}			
