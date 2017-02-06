@@ -1,0 +1,18 @@
+package netLogic;
+
+public class Next15 {
+	
+	
+	
+	public static void main(String[] args){
+		
+		//leap year or not
+		
+		int num=2000;
+		if(num%4==0){
+			System.out.println("it a leap year");
+		}
+		
+	}
+
+}

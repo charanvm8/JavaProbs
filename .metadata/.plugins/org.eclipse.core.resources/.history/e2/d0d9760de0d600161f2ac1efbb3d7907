@@ -1,0 +1,25 @@
+package netLogic;
+
+public class Strings5 {
+	
+	
+	public String reverse(String x)
+	{
+		String str=x;
+		String revStr="";
+		char[] chars=str.toCharArray();
+		for(int i=chars.length-1;i>=0;i--){
+			revStr+=i;
+		}
+		return revStr;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Strings5 str=new Strings5();
+		String name="charan";
+		System.out.println(str.reverse(name));
+
+	}
+
+}

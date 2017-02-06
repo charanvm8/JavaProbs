@@ -1,0 +1,28 @@
+package netLogic;
+
+public class First5 {
+
+	public static void main(String[] args) {
+		// 1 basic arthmetic operations 
+		
+		
+		System.out.println("Addition " + (20+50));
+		
+		
+		// without swapping
+		
+		int a=40;
+		int b=30;
+		
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		
+		System.out.println(a+" "+b);
+		
+		
+		
+		
+	}
+
+}

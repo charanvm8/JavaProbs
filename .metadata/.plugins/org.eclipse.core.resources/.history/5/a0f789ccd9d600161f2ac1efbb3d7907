@@ -1,0 +1,29 @@
+package netLogic;
+
+public class Next20 {
+	
+	public static void main(String[] args){
+		
+		int x=10;
+		int number=2;
+		int start=1;
+		
+		while(start<=x){
+			System.out.println(number*start);
+			start++;
+		}
+		
+		
+		// seasons
+		
+		String month="January";
+		
+		switch(month){
+		case "January":
+			System.out.println("first month of the year");
+		}
+		
+			
+	}
+
+}

@@ -1,0 +1,17 @@
+package netLogic;
+
+public class Next20 {
+	
+	public static void main(String[] args){
+		
+		int x=10;
+		int number=2;
+		int start=1;
+		
+		while(start<=x){
+			System.out.println(number*start);
+			start++;
+		}
+	}
+
+}

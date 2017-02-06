@@ -1,0 +1,44 @@
+package netLogic;
+
+public class Next20 {
+	
+	public static void main(String[] args){
+		
+		int x=10;
+		int number=2;
+		int start=1;
+		
+		while(start<=x){
+			System.out.println(number*start);
+			start++;
+		}
+		
+		
+		// seasons
+		
+		String month="January";
+		
+		switch(month){
+		case "January":
+			System.out.println("first month of the year");
+		default:
+			System.out.println("nothing");
+		}
+		
+		// invert traingle
+		
+		int num=4;
+		for(int i=num;i>=1;i++){
+			int count=1;
+			while(count<=i){
+				System.out.print(i);
+				count++;
+			}
+			System.out.println();
+		}
+		
+		
+			
+	}
+
+}

@@ -1,0 +1,16 @@
+package netLogic;
+
+public class Next10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//area of triangle
+		
+		double base=2;
+		double height=6;
+		
+		System.out.println(0.5*base*height);
+
+	}
+
+}
